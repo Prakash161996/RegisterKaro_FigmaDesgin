@@ -1,0 +1,35 @@
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: #fafafa;
+  }
+  
+  .about-section .row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-text {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 480px) {
+    .about-section {
+        padding: 30px 30px;
+       
+      }
+  }

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.trusted-section {
+  width: 100%;
+  max-width: 1440px;
+  height: 236px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trusted-container {
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.trusted-container h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 49px;
+}
+
+.trusted-logos img {
+  max-height: 28px;
+  max-width: 150px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .trusted-container h2 {
+    font-size: 20px;
+  }
+
+  .trusted-logos img {
+    max-height: 50px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trusted-container h2 {
+    font-size: 18px;
+  }
+
+  .trusted-logos {
+    gap: 20px;
+  }
+
+  .trusted-logos img {
+    max-height: 40px;
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trusted-container h2 {
+    font-size: 16px;
+  }
+
+  .trusted-logos {
+    gap: 15px;
+  }
+
+  .trusted-logos img {
+    max-height: 35px;
+    max-width: 80px;
+  }
+}
