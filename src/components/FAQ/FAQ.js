@@ -22,7 +22,6 @@ const FAQ = () => {
             </div>
           ))}
         </div>
-
         <div className="text-center mt-5 mb-3 faq-btn-section">
           <button className="btn btn-primary faq-btn">
             Show more <span>&#x2794;</span>

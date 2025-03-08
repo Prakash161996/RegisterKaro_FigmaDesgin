@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import logos1 from "../../assets/Display Round Logo.png";
 import logos2 from "../../assets/Display Round Logo2.png";
 import logos3 from "../../assets/Display Round Logo3.png";
@@ -24,69 +24,65 @@ import logos24 from "../../assets/Display Round Logo24.png";
 import "./Logo.css";
 
 const Logo = () => {
-    const logos = [
-        logos1,
-        logos2,
-        logos3,
-        logos4,
-        logos5,
-        logos7,
-        logos8,
-        logos9,
-        logos11,
-        logos12,
-        logos13,
-        logos14,
-        logos15,
-        logos16,
-        logos17,
-        logos18,
-        logos19,
-        logos20,
-        logos21,
-        logos22,
-        logos23,
-        logos24,
-      ];
-      
+  const logos = [
+    logos1,
+    logos2,
+    logos3,
+    logos4,
+    logos5,
+    logos7,
+    logos8,
+    logos9,
+    logos11,
+    logos12,
+    logos13,
+    logos14,
+    logos15,
+    logos16,
+    logos17,
+    logos18,
+    logos19,
+    logos20,
+    logos21,
+    logos22,
+    logos23,
+    logos24,
+  ];
+
   return (
     <section
-    className="text-center py-5"
-    style={{ backgroundColor: "#FAFAFA" }}
-  >
-    <h2 className="fw-bold">Our Happy Clients</h2>
-    <p className="text-muted mx-auto" style={{ maxWidth: "600px" }}>
-      Professionally cultivate one-to-one customer service with robust
-      ideas. Dynamically innovate resource-leveling customer service for
-      state-of-the-art customer service.
-    </p>
+      className="text-center py-5"
+      style={{ backgroundColor: "#FAFAFA" }}
+    >
+      <h2 className="fw-bold">Our Happy Clients</h2>
+      <p className="text-muted mx-auto" style={{ maxWidth: "600px" }}>
+        Professionally cultivate one-to-one customer service with robust ideas.
+        Dynamically innovate resource-leveling customer service for
+        state-of-the-art customer service.
+      </p>
 
-    {/* Grid-Based Logo Section */}
-    <div className="logos-grid-container">
-      {logos.map((logo, index) => (
-        <div
-          key={index}
-          className="logos-item"
-          style={{
-            transform: `translate(${Math.random() * 20 - 10}px, ${
-              Math.random() * 20 - 10
-            }px) rotate(${Math.random() * 10 - 5}deg)`,
-          }}
-        >
-          <img
-            src={logo}
-            alt={`Client ${index + 1}`}
-            className="img-fluid"
-          />
-        </div>
-      ))}
-    </div>
+      {/* Grid-Based Logo Section */}
+      <div className="logos-grid-container">
+        {logos.map((logo, index) => (
+          <div
+            key={index}
+            className="logos-item"
+            style={{
+              transform: `translate(${Math.random() * 20 - 10}px, ${
+                Math.random() * 20 - 10
+              }px) rotate(${Math.random() * 10 - 5}deg)`,
+            }}
+          >
+            <img src={logo} alt={`Client ${index + 1}`} className="img-fluid" />
+          </div>
+        ))}
+      </div>
 
-    <button className="btn  text-primary">
-      <span className="logo-showmore">Show more → </span>
-    </button>
-  </section>
-  )
-}
+      <button className="btn  text-primary">
+        <span className="logo-showmore">Show more → </span>
+      </button>
+    </section>
+  );
+};
 
-export default Logo
+export default Logo;

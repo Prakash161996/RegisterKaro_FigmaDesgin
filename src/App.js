@@ -23,10 +23,7 @@ import { Video } from "./components/Video/Video.js";
 import Logo from "./components/Logo/Logo.js";
 import Process from "./components/Process/Process.js";
 
-
 function App() {
-
-
   return (
     <div style={{ backgroundColor: "#f3f3f3" }}>
       <div
@@ -72,55 +69,38 @@ function App() {
             </div>
           </div>
         </div>
-
         {/* Main navbar */}
         <NavBar />
-
         {/* Hero Section */}
         <HeroSection />
-
         {/* Trusted by section */}
         <Trusted />
-
         {/* Services by section */}
         <Services />
-
         {/* About Section */}
         <About />
-
         {/* Why Choose Section */}
         <WhyChoose />
-
         {/* Video Section */}
         <Video />
-
         {/* logo section */}
         <Logo />
-
         {/* process-section */}
         <Process />
-
         {/* blog section */}
         <BlogGrid />
-
         {/* Testimonal section */}
         <TestimonialsCarousel />
-
         {/* Faq */}
         <FAQ />
-
         {/* Download */}
         <Download />
-
         {/* Statistics */}
         <Statistics />
-
         {/* Hero  */}
         <Hero />
-
         {/* BrandLogos  */}
         <BrandLogos />
-
         {/* Footer */}
         <Footer />
       </div>
