@@ -1,7 +1,7 @@
 import React from 'react';
 import light from "../../assets/light.png";
 import tv from "../../assets/tv.png";
-import girl from "../../assets/girl.png";
+import girl from "../../assets/girl.jpeg";
 import youtube from "../../assets/youtube-logo.png";
 import "./Video.css";
 

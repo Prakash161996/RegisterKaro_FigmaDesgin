@@ -1,11 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import image from "../../assets/Image.png";
-import image2 from "../../assets/Image2.png";
-import image3 from "../../assets/Image3.png";
-import image4 from "../../assets/Image4.png";
-import image5 from "../../assets/Image5.png";
-import image6 from "../../assets/Image6.png";
+import image from "../../assets/Image.jpeg";
+import image2 from "../../assets/Image2.jpeg";
+import image4 from "../../assets/Image4.jpeg";
+import image5 from "../../assets/Image5.jpeg";
+import image6 from "../../assets/Image6.jpeg";
 import "./BlogSection.css";
 import smallIcon from "../../assets/Icon wrap.png";
 
@@ -37,7 +36,7 @@ const blogs = [
     description:
       "Introduction to Wireframing and its Principles. Learn from the best in the Industry.",
     tags: ["Audit", "Money Back"],
-    image: image3,
+    image: image,
   },
   {
     id: 4,

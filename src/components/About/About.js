@@ -1,6 +1,6 @@
 import React from 'react';
 import Symbolwhite from "../../assets/Symbolwhite.png";
-import Frame from "../../assets/Frame 394.png";
+import Frame from "../../assets/Frame394.jpeg";
 import "./About.css"
 
 const About = () => {
