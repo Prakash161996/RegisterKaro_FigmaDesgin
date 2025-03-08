@@ -1,0 +1,106 @@
+.heros-section {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #f7931a, #1a3d7c);
+  color: white;
+}
+
+.heros-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+.heros-head {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1.5%;
+  text-align: center;
+}
+
+/* Email and Submit Button Connection */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.heros-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heros-input input {
+  padding: 10px;
+  width: 350px;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+
+.heros-input button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+/* Checkmark inside circle */
+.check-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: #ffa500;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+/* Feature section */
+.heros-features {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.heros-features span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heros-input {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .heros-input input {
+    width: 100%;
+  }
+
+  .heros-input button {
+    width: 40%;
+  }
+}

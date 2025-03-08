@@ -1,0 +1,62 @@
+.download-app-section {
+    background-color: #1e3a67; /* Dark Blue Background */
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+
+.app-image {
+    width: 100%;
+    height: auto;
+    transform: translateY(67%); 
+}
+
+/* Responsive Adjustments */
+@media (max-width: 772px) {
+    .app-store {
+        flex-direction: row !important; 
+        justify-content: center; 
+    }
+
+    .store-badge {
+        width: 20%; 
+        min-width: 120px; 
+    }
+    .app-image {
+        transform: translateY(92%);
+    }
+    .download-app-section{
+        height: 750px;
+    }
+}
+
+@media (max-width: 576px) {
+    .app-image {
+        transform: translateY(100%);
+    }
+    .app-store {
+        flex-direction: row !important; 
+        justify-content: center; 
+    }
+
+    .store-badge {
+        width: 40%;
+        min-width: 120px;
+    }
+    .download-app-section{
+        height: 650px;
+    }
+
+}
